@@ -22,7 +22,7 @@ SleepDoc was built by a two-person team. This repo is scoped to the author's (ha
 | **Pratyaksh Das** | Touchscreen GUI, Flask REST API, Flutter mobile application |
 | **Kumar Shree** | Assisted with CAD model design for the enclosure |
 
-Full credit for the GUI, API, and mobile app goes to **Pratyaksh Das** — `gui.py` in this repo is his work, included here to show the complete working system alongside the hardware backend.
+Full credit for the GUI, API, and mobile app goes to **Pratyaksh Das** — `gui2.py` in this repo is his work, included here to show the complete working system alongside the hardware backend.
 
 ---
 
@@ -118,7 +118,7 @@ A CNN-LSTM model was trained on the [DREAMT dataset](https://physionet.org/) (10
 ## Repository Contents
 
 - `vsd_on_startup.py` — Hardware backend: sensor integration, radar signal processing pipeline, multithreaded control (author's work)
-- `gui.py` — Touchscreen GUI (built by Pratyaksh Das)
+- `gui2.py` — Touchscreen GUI (built by Pratyaksh Das)
 
 AI model files are excluded while the sleep-stage classifier is being reworked.
 
